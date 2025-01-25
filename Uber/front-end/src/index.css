@@ -1,0 +1,47 @@
+
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+ul,li,ol{
+    list-style: none;
+}
+
+a,a:hover{
+    text-decoration: none;
+}
+
+body{
+    letter-spacing: 1px;
+}
+
+.panel{
+    transition: .5s all ease-in-out;
+    background-color: #fff;
+}
+
+.locate{
+    border: 2px solid transparent;
+}
+
+.locate:active{
+    border-color: #000 !important;
+}
+
+.vehicle{
+    border: 2px solid #d6d4d4;
+}
+
+.vehicle:active{
+    border: 2px solid #000;
+}
+
+.item{
+    border-bottom: 3px solid #d6d4d4;
+}
